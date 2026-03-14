@@ -3,6 +3,7 @@ Stop requests to known ad servers.
 Example rule (like EasyList)
 
 Hide ad elements using CSS:
+
 .ad-banner,
 .sponsored,
 #ads {
@@ -10,6 +11,7 @@ Hide ad elements using CSS:
 }
 
 Prevent tracking scripts:
+
 if (script.src.includes("ads")) {
     blockScript();
 }
